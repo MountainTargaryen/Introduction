@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Times New Roman",Georgia,Serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+section{
+    width: 100%;
+    height: 100%;    
+    /* background-color: blue;   */
+    position: relative;
+}
+.mybox{
+    width: 100%;
+    height: 100%;
+}
+#box1{
+   
+    background-image: url('../img/照片.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.6;
+}
+.name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5rem;
+    color: rgb(244, 248, 7);
+    text-align: center;
+}
+#box2{
+    background: linear-gradient(45deg,  rgb(14, 201, 238), rgb(4, 104, 129));    
+}
+#video{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    
+}
+#text1{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.textTitle{
+    color: white;
+    font-size: 3rem;
+}
+.textInner{
+    color: white;
+    font-size: 1.5rem;
+}
+#box3{
+    background: linear-gradient(45deg, rgb(113, 132, 143), rgb(163, 219, 233));    
+}
+
+#box4{
+    background:linear-gradient(45deg,rgb(230, 243, 111), rgb(14, 121, 80)) ;
+}
+#text3{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+#box5{
+    background:linear-gradient(45deg,rgb(123, 124, 116), rgb(167, 175, 172)) ;
+}
+#text5{   
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#download{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 12rem;
+    height: 4rem;
+    border: 3px solid white;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+#download div{
+    font-size: 1.5rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
