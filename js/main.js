@@ -11,9 +11,9 @@ function typing() {
     }
 }
 
-window.onload=function(){
-    typing();
-}
+
+typing();
+
 
 var wrap = document.querySelector(".wrap");
 var next = document.querySelector(".arrow_right");
