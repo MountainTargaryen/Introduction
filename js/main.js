@@ -10,7 +10,10 @@ function typing() {
         divTyping.innerHTML = str; //结束打字,移除 _ 光标
     }
 }
-typing();
+
+window.onload=function(){
+    typing();
+}
 
 var wrap = document.querySelector(".wrap");
 var next = document.querySelector(".arrow_right");
