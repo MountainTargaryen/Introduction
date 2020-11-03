@@ -60,7 +60,7 @@ section{
 }
 .textInner{
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 #box3{
     background: linear-gradient(45deg, rgb(113, 132, 143), rgb(163, 219, 233));    
@@ -68,7 +68,7 @@ section{
 .gif{
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 22%;
     transform: translate(-50%,-50%);
 }
 #text2{
