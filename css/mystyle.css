@@ -34,7 +34,7 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 5rem;
+    font-size: 4.5rem;
     color: rgb(244, 248, 7);
     text-align: center;
 }
@@ -65,6 +65,18 @@ section{
 #box3{
     background: linear-gradient(45deg, rgb(113, 132, 143), rgb(163, 219, 233));    
 }
+.gif{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+#text2{
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
 
 #box4{
     background:linear-gradient(45deg,rgb(230, 243, 111), rgb(14, 121, 80)) ;
@@ -76,7 +88,7 @@ section{
     transform: translate(0%,-50%);
 }
 #box5{
-    background:linear-gradient(45deg,rgb(123, 124, 116), rgb(167, 175, 172)) ;
+    background:linear-gradient(45deg,rgb(150, 151, 144), rgb(167, 175, 172)) ;
 }
 #text5{   
     position: absolute;
@@ -106,3 +118,18 @@ section{
     color: white;
 }
 
+footer{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    background: linear-gradient(45deg,rgb(54, 55, 58), rgb(31, 116, 228));
+}
+
+.connection{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 1.3rem;
+}
